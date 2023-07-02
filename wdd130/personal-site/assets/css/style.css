@@ -1,0 +1,60 @@
+/*General CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab&display=swap');
+body {
+  background-color: #a2a3bb;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+nav a:hover {
+  background-color: #396e94;
+}
+
+.home {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.home img {
+  width: 53%;
+  padding-left: 40%;
+}
+
+.text{
+  justify-content: center;
+  padding: 50px;
+  font-size: 150%;
+  font-family: 'Roboto Slab', serif;
+}
+
+header nav {
+  background-color: #b3b7ee;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+footer nav {
+  background-color: #b3b7ee;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+nav a {
+  padding: 1em;
+  min-width: 120px;
+  padding: 10px;
+  text-decoration: none;
+}
