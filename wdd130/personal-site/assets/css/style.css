@@ -7,7 +7,7 @@ body {
   grid-template-rows: 1fr auto;
 }
 
-nav a:hover {
+header nav a:hover {
   background-color: #396e94;
 }
 
@@ -52,9 +52,47 @@ footer nav {
   justify-content: center;
   justify-content: space-around;
 }
-nav a {
+header nav a {
   padding: 1em;
   min-width: 120px;
   padding: 10px;
   text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  /* border-radius: 50%; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: rgb(30 48 80);
+  color: white;
+}
+
+.fa-github {
+  color: white;
+  background: rgb(30, 48, 80)
+}
+
+.fa-layer-group{
+  color: white;
+  background: rgb(30, 48, 80)
 }
