@@ -24,6 +24,11 @@ header nav a:hover {
   padding-left: 40%;
 }
 
+.home h3{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
 .text{
   justify-content: center;
   padding: 50px;
