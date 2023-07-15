@@ -11,6 +11,20 @@ header nav a:hover {
   background-color: #396e94;
 }
 
+.project{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.project img{
+  width: 53%;
+  padding-left: 30%;
+}
+
+
 .home {
   display: grid;
   align-items: center;
@@ -32,8 +46,9 @@ header nav a:hover {
 .text{
   justify-content: center;
   padding: 50px;
-  font-size: 150%;
+  font-size: 130%;
   font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
 
 header nav {
